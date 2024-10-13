@@ -1,14 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- modennormalaize -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+  integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Homework 11</title>
-    <link rel="stylesheet" href="./style.css">
+    <!-- <link rel="stylesheet" href="./style.css"> -->
   </head>
   <body>
     <h1>Home work 11</h1>
 
+    <form class="search-form js-form" id="search-form">
+      <input class="search-form__input" type="text" name="searchQuery" autocomplete="off" placeholder="Search images..." />
+      <button type="submit">Search</button>
+    </form>
+
+ <div class="container-gallery">
+  <div class="gallery list js-gallery">
+    <!-- Картки зображень -->
+  </div>
+</div>
+   
+
+    <button type="button" class="load-more js-load-more" hidden>Load more</button>
+
     <script src="index.js" type="module"></script>
   </body>
+
+
 </html>
