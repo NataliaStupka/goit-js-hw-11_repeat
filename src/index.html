@@ -10,6 +10,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Homework 11</title>
     <!-- <link rel="stylesheet" href="./style.css"> -->
+
+    <!-- bootstrap spiner -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   </head>
   <body>
     <h1>Home work 11</h1>
@@ -24,9 +28,20 @@
     <!-- Картки зображень -->
   </div>
 </div>
+
+<!-- <div class="container__btn-page"></div> -->
    
 
-    <button type="button" class="load-more js-load-more" hidden>Load more</button>
+    <button 
+      type="button" 
+      class="load-more js-load-more button" 
+      data-action="load-more">
+        <span 
+        class="spinner-border spinner-border-sm spinner is-hidden" 
+        role="status" 
+        aria-hidden="true"></span>
+        <span class="label">Load more</span>
+     </button>
 
     <script src="index.js" type="module"></script>
   </body>

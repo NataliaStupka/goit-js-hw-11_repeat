@@ -26,6 +26,7 @@
     display: flex;
     flex-wrap: wrap;
     margin-left: -15px;
+    margin-bottom: 30px;
 
 }
 
@@ -92,7 +93,16 @@
 
 }
 
+//button
 //load-more
+.button.is-hidden {
+    display: none;
+}
+
+.button>.spinner.is-hidden {
+    display: none;
+}
+
 .load-more {
     display: block; 
     margin: 30px auto;
@@ -116,3 +126,23 @@
 .load-more.is-hidden {
     display: none;
 }
+
+.container__btn-page {
+    display: none;
+    //display: flex;
+    justify-content: center;
+}
+
+// .btn-page {
+//     display: block;
+//     width: 40px;
+//     height: 40px;
+//     margin-right: 10px;
+//     color:#fff;
+//     background-color: rgba(0, 128, 0, 0.8);
+//     padding: 10px 15px;
+//     border: none;
+//     border-radius: 10px;
+//     cursor: pointer;
+
+// }
